@@ -1,0 +1,11 @@
+{
+  "name": "auto-farm-recorder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mobile Auto Farm Recorder - Thai web dashboard + Android Companion",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check web/js/app.js && node --check web/js/macro.js && node --check web/js/db.js && node --check web/js/api.js"
+  }
+}

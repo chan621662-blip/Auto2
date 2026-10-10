@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ไม่อ่านเนื้อหาหน้าจอ ไม่รับ event ของแอปอื่น: ขอเฉพาะความสามารถ "สั่งแตะ/ปัด" (dispatchGesture) -->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:canPerformGestures="true"
+    android:canRetrieveWindowContent="false"
+    android:description="@string/service_description"
+    android:notificationTimeout="100" />
